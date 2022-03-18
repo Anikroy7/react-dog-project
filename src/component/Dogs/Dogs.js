@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Dog from '../Dog/Dog';
+import "./Dogs.css"
 
 const Dogs = () => {
 
@@ -12,7 +13,7 @@ const Dogs = () => {
     }, [])
 
     return (
-        <div>
+        <div className='main'>
             {
                 dogs.map(dog => <Dog dog={dog}></Dog>)
             }
