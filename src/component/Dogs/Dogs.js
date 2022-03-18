@@ -14,7 +14,7 @@ const Dogs = () => {
     return (
         <div>
             {
-                dogs.map(dog => <Dog></Dog>)
+                dogs.map(dog => <Dog dog={dog}></Dog>)
             }
         </div>
     );
