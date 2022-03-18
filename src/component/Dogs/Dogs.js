@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Dog from '../Dog/Dog';
 
 const Dogs = () => {
 
@@ -13,7 +14,7 @@ const Dogs = () => {
     return (
         <div>
             {
-                dogs.map(dog => console.log(dog))
+                dogs.map(dog => <Dog></Dog>)
             }
         </div>
     );
