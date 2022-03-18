@@ -1,24 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Dogs from './component/Dogs/Dogs';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>The dog api project</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Here we get all cutee dog</h1>
+      <Dogs></Dogs>
     </div>
   );
 }
